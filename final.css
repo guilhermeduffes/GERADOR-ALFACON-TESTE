@@ -1,0 +1,54 @@
+body {
+    background-color: #2d2d2d;
+}
+
+.paiTodos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#filho1Back {
+    width: 600px;
+    height: 600px;
+    background: -webkit-linear-gradient(to right, #2d73d2, #053b85);
+    background: linear-gradient(to right, #2d73d2, #053b85);
+
+}
+
+#filho2Texto {
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 4.3rem;
+}
+
+h1 {
+    color: white;
+    font-weight: 1000;
+}
+
+#imagemAlfa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#imgAlfa2 {
+    width: 100px;
+    margin-top: 3.5rem;
+    float: none;
+}
+
+#down-button{
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
