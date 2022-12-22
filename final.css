@@ -40,6 +40,12 @@ h1 {
     float: none;
 }
 
+#paiBotao{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
 #down-button{
     background-color: #4caf50;
     color: white;

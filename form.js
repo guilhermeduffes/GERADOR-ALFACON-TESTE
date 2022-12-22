@@ -1,3 +1,5 @@
+var dicas = alert("Dicas: Coloque sempre seu primeiro nome;    Não importa caixa alta/baixa; Defina o seu sexo e envie!");
+
 document.querySelector("form").addEventListener("submit", function (event) {
     event.preventDefault();
 
