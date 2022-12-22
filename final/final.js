@@ -13,7 +13,7 @@ function salvarImagem() {
 
 window.onload = function() {
     var inputValue = localStorage.getItem('inputValue');
-    document.querySelector('#nome2').innerHTML = inputValue;
+    document.querySelector('#nome2').innerHTML = inputValue.toUpperCase();
     var genero = localStorage.getItem('genero');
     document.querySelector('#genero').textContent = "E VOU SER " + genero
 };
