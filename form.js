@@ -1,4 +1,4 @@
-var dicas = alert("Dicas:    Coloque sempre seu primeiro nome;    Não importa caixa alta/baixa;    Defina o seu sexo e envie!");
+var dicas = alert("Dicas: Coloque sempre seu primeiro nome; Não importa caixa alta/baixa; Defina o seu sexo e envie!");
 
 document.querySelector("form").addEventListener("submit", function (event) {
     event.preventDefault();
@@ -35,28 +35,9 @@ radios.forEach(function(radio){
     });
 });
 
-// document.querySelector('#SexoF').addEventListener('change', function(){
-//     if(this.checked){
-//         localStorage.setItem('genero', this.value);
-//     }
-// });
-
-// document.querySelector('#SexoM').addEventListener('change', function(){
-//     if(this.checked){
-//         localStorage.setItem('genero', this.value);
-//     }
-// });
-
 document.querySelector('button').addEventListener('click', function(event) {
     var inputValue = document.querySelector('#nome').value;
     localStorage.setItem('inputValue', inputValue);
     var inputSexo = document.querySelector('#SexoM').checked;
     localStorage.setItem('inputSexo', inputSexo);
   });
-
-// coisa nova usando cookie, então, comentemos!
-// pegando o valor do input do usuario
-// var inputValue = document.getElementById('nome').value;
-// armazenando o valor que o usuario digitou num cookie pra usar em OUTRA página
-// Cookies.set('inputValue', inputValue);
-//armazenado! agora partiremos pro outro arquivo > 
