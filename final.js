@@ -1,7 +1,7 @@
 function salvarImagem() {
     // seleciono a div que vo salva como png
     var element = document.getElementById('filhoDown');
-    element.parentNode.style.display = "block";
+    element.parentNode.style.display = "flex";
 
 
     html2canvas(element).then(function (canvas) {
@@ -23,5 +23,3 @@ window.onload = function() {
     var genero = localStorage.getItem('genero');
     document.querySelector('.genero').textContent = "E VOU SER " + genero
 };
-
-// teste
