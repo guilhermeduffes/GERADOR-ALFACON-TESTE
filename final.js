@@ -23,3 +23,5 @@ window.onload = function() {
     var genero = localStorage.getItem('genero');
     document.querySelector('.genero').textContent = "E VOU SER " + genero
 };
+
+// teste
